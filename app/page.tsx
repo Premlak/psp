@@ -98,7 +98,7 @@ export default function Home() {
       src: "/images/bijjuwalichild.jpeg",
     },
   ];
-  const words = `Date of commencement: 30th Dec, 2024. Status: Being pursued. Participants: 9th to 11th (Session 2024-25) Top 5 students (including 2 girls) from each PM SHRI Goverment School (based on the previous year’s performance) & 10 students from each Obligable Collage Under Sirsa `;
+  const words = `Date of commencement: 30th Dec, 2024. Status: Being pursued. Participants: 9th to 11th (Session 2024-25) Top 5 students (including 2 girls) from each PM SHRI Goverment School (based on the previous year’s performance) & 10 meritorious students from each Government Collage of district Sirsa`;
   const schools = ["PM SHRI GSSS Rupawas", "PM SHRI GSSS Panniwali Mota & Ding", "PM SHRI GSSS Odhan", "PM SHRI GSSS Kharian", "PM SHRI GSSS Kanwarpura", "PM SHRI GSSS Bijjuwali & Chautala", "PM SHRI GSSS Bhuratwala & Talwara Khurd", "PM SHRI GSSS Baragudah & Madhosinghana"]
   return (
     <>
@@ -109,8 +109,7 @@ export default function Home() {
             <p className="max-w-4xl mx-auto text-slate-800 text-center text-4xl font-bold">
               Date of commencement: 30th Dec, 2024. Status: Being pursued. Participants: 9th to 11th
               (Session 2024-25) Top 5 students (including 2 girls) from each
-              PM SHRI Goverment School (based on the previous year’s performance) & 10 students from each Obligable Collage 
-              Under Sirsa 
+              PM SHRI Goverment School (based on the previous year’s performance) & 10  meritorious students from each Government Collage of district Sirsa  
             </p>
           }
           className="h-[40rem] text-black"
@@ -120,8 +119,8 @@ export default function Home() {
           Participants: <span className="text-red-500"> 9th </span> to{" "}
           <span className="text-red-500"> 11th </span> (Session 2024-25) Top 5
           students <span className="text-red-500"> (including two girls) </span>{" "}
-          from PM SHRI Goverment School (based on the previous year’s performance) & 10 students from each Obligable Collage{" "}
-          <span className="text-red-500"> Under Sirsa</span> 
+          from PM SHRI Goverment School (based on the previous year’s performance) &  meritorious students from each Government Collage of district{" "}
+          <span className="text-red-500">Sirsa</span> 
         </MaskContainer>
       </div>
       <div className="relative lg:hidden block">
